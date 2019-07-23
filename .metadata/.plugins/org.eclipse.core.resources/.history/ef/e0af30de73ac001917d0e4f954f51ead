@@ -1,0 +1,15 @@
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class HashMapTest {
+
+	public static void main(String[] args) {
+		Map map=new LinkedHashMap();
+		map.put("hjbjh", null);
+		map.put("gv", null);
+		map.put(null, null);
+		map.put("AP", 55);
+		System.out.println(map);
+	}
+
+}

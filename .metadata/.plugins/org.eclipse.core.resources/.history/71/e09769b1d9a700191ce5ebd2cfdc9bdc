@@ -1,0 +1,24 @@
+package com.rpg.thread;
+
+public class Lab582 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+class Hello1{
+void show(){
+	Thread th=Thread.currentThread();
+}
+}
+class MyThread11 extends Thread{
+	Hello1 h=null;
+	public MyThread11(Hello1 h) {
+		this.h=h;
+	}
+	public void run(){
+		h.show();
+		
+	}
+}

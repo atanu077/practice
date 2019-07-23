@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Luck&apos; to &apos;Atanu&apos;&#x0D;&#x0A;- Original project: &apos;Abstract_Interface&apos;&#x0D;&#x0A;- Original element: &apos;Luck&apos;&#x0D;&#x0A;- Renamed element: &apos;Atanu&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Luck&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Luck.java[Luck" matchStrategy="1" name="Atanu" qualified="false" references="true" similarDeclarations="false" stamp="1562568549343" textual="false" version="1.0"/>
+</session>

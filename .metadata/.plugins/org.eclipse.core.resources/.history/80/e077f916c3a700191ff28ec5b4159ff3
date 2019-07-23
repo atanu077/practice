@@ -1,0 +1,11 @@
+import java.text.DecimalFormat;
+
+public class phoneNo {
+	public static void main(String[] args) {
+		
+		long phoneFmt = 123456789L;
+		DecimalFormat phoneFmt1 = new DecimalFormat("###-###-####");
+		System.out.println(phoneFmt1.format(phoneFmt));
+	}
+
+}

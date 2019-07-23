@@ -1,0 +1,36 @@
+package com.rpg.thread;
+
+public class Lab582 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+class Hello1{
+void show(){
+	Thread th=Thread.currentThread();
+	synchronized (this) {
+		for(int i=0;i<5;i++){
+			System.out.println(th.getName()+"show"+"\t"+this);
+		}
+		try{
+			th.sleep(500);
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		
+	}
+}
+}
+class MyThread01 extends Thread{
+	Hello1 h=null;
+	public MyThread01(Hello1 h) {
+		this.h=h;
+	}
+	public void run(){
+		h.show();
+		
+	}
+}
